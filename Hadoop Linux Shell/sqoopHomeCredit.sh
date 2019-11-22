@@ -11,7 +11,7 @@ echo ""
 pass=$(. ./credential.sh)
 
 ##############################################################################
-sqoop import-all-tables --connect jdbc:postgresql://database-postgresql.csdhc0tpnn9q.ap-southeast-1.rds.amazonaws.com:5432/homecredit \
+sqoop import-all-tables --connect jdbc:postgresql://dbshost:port/homecredit \
 -m 1 \
 --username insidertech \
 --password $pass \
