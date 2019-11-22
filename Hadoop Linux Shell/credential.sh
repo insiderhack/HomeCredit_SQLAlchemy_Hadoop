@@ -1,0 +1,1 @@
+echo U2FsdGVkX1/LfAihtzhEkzk7/PWMM/jlIwjCqHBErJM= | openssl enc -aes-128-cbc -a -d -salt -pass #rewrite with ur password after echo 
